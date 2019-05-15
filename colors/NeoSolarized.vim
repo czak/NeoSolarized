@@ -501,7 +501,7 @@ else " normal
     exe "hi! DiffText"       .s:fmt_bold   .s:fg_blue   .s:bg_base02 .s:sp_blue
 endif
 
-exe "hi! SignColumn"     .s:fmt_none   .s:fg_base0  .s:bg_none
+exe "hi! SignColumn"     .s:fmt_none   .s:fg_base0  .s:bg_base02
 exe "hi! Conceal"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! SpellBad"       .s:fmt_curl   .s:fg_none   .s:bg_none    .s:sp_red
 exe "hi! SpellCap"       .s:fmt_curl   .s:fg_none   .s:bg_none    .s:sp_violet
@@ -855,8 +855,8 @@ exe "hi! SignifySignChangeDelete"   . s:fg_red      .s:bg_none  .s:fmt_none
 
 " ALE highlighting "{{{
 " ---------------------------------------------------------------------
-exe "hi! ALEErrorSign"          . s:fg_orange   .s:bg_none   .s:fmt_none
-exe "hi! ALEWarningSign"        . s:fg_yellow   .s:bg_none   .s:fmt_none
+exe "hi! ALEErrorSign"          . s:fg_orange   .s:bg_base02   .s:fmt_none
+exe "hi! ALEWarningSign"        . s:fg_yellow   .s:bg_base02   .s:fmt_none
 " }}}"
 
 " NeoVim terminal buffer colours "{{{
